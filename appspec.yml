@@ -4,6 +4,9 @@ files:
   - source: ./
     destination: /home/ubuntu/fmc/
 hooks:
+  ApplicationStop: 
+    - location: remove_all_files.sh
+      timeout: 120
   Install:
     - location: deploy.sh
       timeout: 600
