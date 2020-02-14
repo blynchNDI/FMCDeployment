@@ -1,4 +1,4 @@
 #!/bin/bash
 
-cd /home/ubuntu/fmc/fixmystreet/
+cd /home/ubuntu/fmc/
 sudo docker-compose up
